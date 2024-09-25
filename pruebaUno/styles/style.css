@@ -1,0 +1,22 @@
+div{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+
+.caja{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 93, 93);
+    border: solid black 3px;
+    transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.caja:hover{
+    background-color: rgb(255, 30, 30);
+    transition: transform 0.6s easeOutCubic;
+
+    rotate: 1deg;
+}
+
